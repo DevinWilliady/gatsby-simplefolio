@@ -48,7 +48,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Sudoh.jpg',
     title: 'SudohBucks',
-    info: 'SudohBucks is interactive application build for give some information about SudohBucks Coffee Sop',
+    info: 'SudohBucks is interactive application build for give some information about SudohBucks Coffee Shop',
     info2: 'Build in Adobe Animate CC 2018 and Java Script',
     url: 'http://bit.ly/SudohBucks',
     repo: '', // if no repo, the button will not show up
