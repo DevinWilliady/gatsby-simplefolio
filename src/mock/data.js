@@ -18,10 +18,13 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'Foto.jpg',
-  paragraphOne: 'Hello, My Name is Devin Liestian Williady. I am a Computer Science Student at Bina Nusantara University. I was born in Solo at 19 December 1999',
-  paragraphTwo: 'I am currently a Computer Science undergraduate student. I am still learn about programming, some programming language that i have tried such as C, Java, HTML, CSS, JavaScript, C#, ASP.NET and lately i learn about PHP, Laravel, and Android',
-  paragraphThree: 'When i am not coding my project, I enjoy spending my time to watching movie, fixing some broken stuff, and lately i like to build a program in android studio ',
-  resume: '', // if no resume, the button will not show up
+  paragraphOne:
+    'Hello, My Name is Devin Liestian Williady. I am a Computer Science Student at Bina Nusantara University. I was born in Solo at 19 December 1999',
+  paragraphTwo:
+    'I am currently a Computer Science undergraduate student. I am still learn about programming, some programming language that i have tried such as C, Java, HTML, CSS, JavaScript, C#, ASP.NET and lately i learn about PHP, Laravel, and Android',
+  paragraphThree:
+    'When i am not coding my project, I enjoy spending my time to watching movie, fixing some broken stuff, and lately i like to build a program in android studio ',
+  resume: 'http://bit.ly/DevinsResume', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -31,7 +34,7 @@ export const projectsData = [
     img: 'Miku.jpg',
     title: 'Miku E-SKpo',
     info: 'Miku E-SKpo is a prototype Ticketing Music Festival Website',
-    info2: 'Build in HTML an CSS',
+    info2: 'Build in HTML and CSS',
     url: 'http://bit.ly/MikuEshop',
     repo: '', // if no repo, the button will not show up
   },
@@ -48,9 +51,19 @@ export const projectsData = [
     id: nanoid(),
     img: 'Sudoh.jpg',
     title: 'SudohBucks',
-    info: 'SudohBucks is interactive application build for give some information about SudohBucks Coffee Shop',
+    info:
+      'SudohBucks is interactive application build for give some information about SudohBucks Coffee Shop',
     info2: 'Build in Adobe Animate CC 2018 and Java Script',
     url: 'http://bit.ly/SudohBucks',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'skin.jpg',
+    title: 'SkinTech',
+    info: 'SkinTech is a prototype website for online selling recomendation beauty product',
+    info2: 'Build in HTML and CSS',
+    url: 'http://bit.ly/SkinTechDevin',
     repo: '', // if no repo, the button will not show up
   },
   {
